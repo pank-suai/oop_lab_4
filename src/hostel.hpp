@@ -10,9 +10,5 @@ public:
          unsigned int maxResidents)
       : Housing(name, area, price, residents), maxResidents(maxResidents) {}
 
-  void print() const override {
-    Housing::print();
-    std::cout << "Максимальное количество жителей: " << maxResidents
-              << std::endl;
-  }
+  void print() const override;
 };

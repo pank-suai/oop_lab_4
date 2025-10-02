@@ -32,7 +32,8 @@ int main() {
   House house2("Дом №42", 120.0, 40.0, 5, "Дерево");
   std::cout << "Информация о доме:" << std::endl;
   house2.print();
-  std::cout << "Стоимость: " << house2.calculateCost() << std::endl << std::endl;
+  std::cout << "Стоимость: " << house2.calculateCost() << std::endl
+            << std::endl;
 
   return 0;
 }

@@ -45,7 +45,7 @@ main.cpp
 
 = Скриншоты работы программы
 
-#figure(image("./images/001_screenshot.png"), width: 70%)
+#figure(image("./images/001_screenshot.png",  width: 70%))
 
 = Выводы
 
